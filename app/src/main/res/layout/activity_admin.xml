@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F0F0F0">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admins!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button Template -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Manage Placeholder"
+        android:drawableStart="@drawable/ic_placeholder"
+        android:drawablePadding="8dp"/>
+
+    <!-- Manage Movies -->
+    <Button
+        android:id="@+id/btn_manage_movies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Movies"
+        android:drawableLeft="@drawable/ic_movie"/>
+
+    <!-- Manage Theaters -->
+    <Button
+        android:id="@+id/btn_manage_theaters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Theaters"
+        android:drawableLeft="@drawable/ic_theater"/>
+
+    <!-- Manage Showtimes -->
+    <Button
+        android:id="@+id/btn_manage_showtimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Showtimes"
+        android:drawableLeft="@drawable/ic_calendar"/>
+
+    <!-- Manage Users -->
+    <Button
+        android:id="@+id/btn_manage_users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Users"
+        android:drawableLeft="@drawable/ic_user"/>
+</LinearLayout>

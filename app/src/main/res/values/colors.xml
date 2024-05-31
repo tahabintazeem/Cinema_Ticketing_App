@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D1D1D</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="titleColor">#F5821E</color>
+    <color name="popUpColor">#66F5821E</color>
+    <color name="button_color">#3F51B5</color>
+</resources>
